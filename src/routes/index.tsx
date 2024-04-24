@@ -1,12 +1,8 @@
-import Home from "../pages/Home"
-import List from "../pages/List"
-import Lists from "../pages/Lists"
-import Profile from "../pages/Profile"
+import { Home, List, Lists, Profile } from "./lazyPages"
 import { Routs } from "./types"
 
 const routes = [
   { path: Routs.HOME, element: <Home /> },
-
   {
     path: Routs.LISTS,
     element: <Lists />,
