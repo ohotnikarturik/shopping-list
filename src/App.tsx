@@ -5,19 +5,23 @@ import Profile from "./pages/Profile"
 import NotFoundPage from "./pages/NotFoundPage"
 import Layout from "./components/Layout"
 import List from "./pages/List"
+import Home from "./pages/Home"
 
 const router = createBrowserRouter([
   {
-    path: "/",
     element: <Layout />,
     errorElement: <NotFoundPage />,
     children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
       {
         path: "lists",
         element: <Lists />,
       },
       {
-        path: "/lists/:listId",
+        path: "lists/:listId",
         element: <List />,
       },
       {

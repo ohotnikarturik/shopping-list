@@ -3,11 +3,16 @@ import Navigation from "./Navigation"
 
 const Layout = () => {
   return (
-    <div>
-      <div>Shopping List</div>
-      <Outlet />
-      <Navigation />
-    </div>
+    <>
+      <header>
+        <h1>Shopping List app</h1>
+        <Navigation />
+      </header>
+      <main>
+        <Outlet />
+      </main>
+      <footer>Footer</footer>
+    </>
   )
 }
 export default Layout
