@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom"
 
+import { Routs } from "../routes/types"
+
 const Navigation = () => {
   return (
     <nav>
-      <Link to="/lists">Lists</Link>
-      <Link to="/profile">Profile</Link>
+      <Link to={Routs.LISTS}>Lists</Link>
+      <Link to={Routs.PROFILE}>Profile</Link>
     </nav>
   )
 }
