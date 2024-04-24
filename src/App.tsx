@@ -13,14 +13,12 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
     children: [
       {
-        path: "",
+        path: "lists",
         element: <Lists />,
-        children: [
-          {
-            path: "/lists/:listId",
-            element: <List />,
-          },
-        ],
+      },
+      {
+        path: "/lists/:listId",
+        element: <List />,
       },
       {
         path: "profile",
