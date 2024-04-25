@@ -1,28 +1,31 @@
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import { Routs } from "../routes/types"
 
 interface List {
   id: string
-  name: string
+  listName: string
 }
 
 const Lists = () => {
+  const navigate = useNavigate()
   const [lists, setLists] = useState<List[]>([])
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
   const [inputValue, setInputValue] = useState("")
 
-  const createList = async (listName: string) => {
+  const createList = async (name: string) => {
     setIsLoading(true)
     const response = await fetch("http://localhost:7777/lists", {
       method: "POST",
-      body: JSON.stringify({ id: listName.toLowerCase(), name: listName }),
+      body: JSON.stringify({ id: name.toLowerCase(), name }),
       headers: {
         "Content-Type": "application/json",
       },
     })
-    const data = await response.json()
-    setLists([...lists, data])
+    const list = await response.json()
+    navigate(`${Routs.LISTS}/${list.id}`)
+    setLists([...lists, list])
     setIsLoading(false)
     setIsModalOpen(false)
     setInputValue("")
@@ -43,7 +46,7 @@ const Lists = () => {
     if (lists.length === 0) return <div>Let's plan your shopping!</div>
     return lists.map((list) => (
       <Link key={list.id} to={`/lists/${list.id}`}>
-        {list.name}
+        {list.listName}
       </Link>
     ))
   }
