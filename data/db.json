@@ -52,948 +52,1137 @@
   "products": [
     {
       "id": "1",
-      "productName": "Milk",
-      "category": "Dairy"
+      "category": "Dairy",
+      "quantity": 0,
+      "productName": "Milk"
     },
     {
       "id": "2",
-      "productName": "Eggs",
-      "category": "Dairy"
+      "category": "Dairy",
+      "quantity": 0,
+      "productName": "Eggs"
     },
     {
       "id": "3",
-      "productName": "Bread",
-      "category": "Bakery"
+      "category": "Bakery",
+      "quantity": 0,
+      "productName": "Bread"
     },
     {
       "id": "4",
-      "productName": "Pasta",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Pasta"
     },
     {
       "id": "5",
-      "productName": "Rice",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Rice"
     },
     {
       "id": "6",
-      "productName": "Apples",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Apples"
     },
     {
       "id": "7",
-      "productName": "Bananas",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Bananas"
     },
     {
       "id": "8",
-      "productName": "Oranges",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Oranges"
     },
     {
       "id": "9",
-      "productName": "Chicken breasts",
-      "category": "Meat"
+      "category": "Meat",
+      "quantity": 0,
+      "productName": "Chicken breasts"
     },
     {
       "id": "10",
-      "productName": "Ground beef",
-      "category": "Meat"
+      "category": "Meat",
+      "quantity": 0,
+      "productName": "Ground beef"
     },
     {
       "id": "11",
-      "productName": "Lettuce",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Lettuce"
     },
     {
       "id": "12",
-      "productName": "Tomatoes",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Tomatoes"
     },
     {
       "id": "13",
-      "productName": "Onions",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Onions"
     },
     {
       "id": "14",
-      "productName": "Cheese",
-      "category": "Dairy"
+      "category": "Dairy",
+      "quantity": 0,
+      "productName": "Cheese"
     },
     {
       "id": "15",
-      "productName": "Yogurt",
-      "category": "Dairy"
+      "category": "Dairy",
+      "quantity": 0,
+      "productName": "Yogurt"
     },
     {
       "id": "16",
-      "productName": "Cereal",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Cereal"
     },
     {
       "id": "17",
-      "productName": "Canned beans",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Canned beans"
     },
     {
       "id": "18",
-      "productName": "Soup",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Soup"
     },
     {
       "id": "19",
-      "productName": "Coffee",
-      "category": "Beverages"
+      "category": "Beverages",
+      "quantity": 0,
+      "productName": "Coffee"
     },
     {
       "id": "20",
-      "productName": "Juice",
-      "category": "Beverages"
+      "category": "Beverages",
+      "quantity": 0,
+      "productName": "Juice"
     },
     {
       "id": "21",
-      "productName": "Potatoes",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Potatoes"
     },
     {
       "id": "22",
-      "productName": "Carrots",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Carrots"
     },
     {
       "id": "23",
-      "productName": "Bell peppers",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Bell peppers"
     },
     {
       "id": "24",
-      "productName": "Avocados",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Avocados"
     },
     {
       "id": "25",
-      "productName": "Cucumbers",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Cucumbers"
     },
     {
       "id": "26",
-      "productName": "Broccoli",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Broccoli"
     },
     {
       "id": "27",
-      "productName": "Cauliflower",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Cauliflower"
     },
     {
       "id": "28",
-      "productName": "Spinach",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Spinach"
     },
     {
       "id": "29",
-      "productName": "Kale",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Kale"
     },
     {
       "id": "30",
-      "productName": "Mushrooms",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Mushrooms"
     },
     {
       "id": "31",
-      "productName": "Strawberries",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Strawberries"
     },
     {
       "id": "32",
-      "productName": "Blueberries",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Blueberries"
     },
     {
       "id": "33",
-      "productName": "Grapes",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Grapes"
     },
     {
       "id": "34",
-      "productName": "Melons",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Melons"
     },
     {
       "id": "35",
-      "productName": "Pineapple",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Pineapple"
     },
     {
       "id": "36",
-      "productName": "Chicken thighs",
-      "category": "Meat"
+      "category": "Meat",
+      "quantity": 0,
+      "productName": "Chicken thighs"
     },
     {
       "id": "37",
-      "productName": "Ground turkey",
-      "category": "Meat"
+      "category": "Meat",
+      "quantity": 0,
+      "productName": "Ground turkey"
     },
     {
       "id": "38",
-      "productName": "Salmon",
-      "category": "Seafood"
+      "category": "Seafood",
+      "quantity": 0,
+      "productName": "Salmon"
     },
     {
       "id": "39",
-      "productName": "Tuna",
-      "category": "Seafood"
+      "category": "Seafood",
+      "quantity": 0,
+      "productName": "Tuna"
     },
     {
       "id": "40",
-      "productName": "Tea",
-      "category": "Beverages"
+      "category": "Beverages",
+      "quantity": 0,
+      "productName": "Tea"
     },
     {
       "id": "41",
-      "productName": "Soda",
-      "category": "Beverages"
+      "category": "Beverages",
+      "quantity": 0,
+      "productName": "Soda"
     },
     {
       "id": "42",
-      "productName": "Water",
-      "category": "Beverages"
+      "category": "Beverages",
+      "quantity": 0,
+      "productName": "Water"
     },
     {
       "id": "43",
-      "productName": "Bread flour",
-      "category": "Baking"
+      "category": "Baking",
+      "quantity": 0,
+      "productName": "Bread flour"
     },
     {
       "id": "44",
-      "productName": "Yeast",
-      "category": "Baking"
+      "category": "Baking",
+      "quantity": 0,
+      "productName": "Yeast"
     },
     {
       "id": "45",
-      "productName": "Sugar",
-      "category": "Baking"
+      "category": "Baking",
+      "quantity": 0,
+      "productName": "Sugar"
     },
     {
       "id": "46",
-      "productName": "Brown sugar",
-      "category": "Baking"
+      "category": "Baking",
+      "quantity": 0,
+      "productName": "Brown sugar"
     },
     {
       "id": "47",
-      "productName": "Baking powder",
-      "category": "Baking"
+      "category": "Baking",
+      "quantity": 0,
+      "productName": "Baking powder"
     },
     {
       "id": "48",
-      "productName": "Vanilla extract",
-      "category": "Baking"
+      "category": "Baking",
+      "quantity": 0,
+      "productName": "Vanilla extract"
     },
     {
       "id": "49",
-      "productName": "Cooking oil",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Cooking oil"
     },
     {
       "id": "50",
-      "productName": "Vinegar",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Vinegar"
     },
     {
       "id": "51",
-      "productName": "Salt",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Salt"
     },
     {
       "id": "52",
-      "productName": "Pepper",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Pepper"
     },
     {
       "id": "53",
-      "productName": "Ketchup",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Ketchup"
     },
     {
       "id": "54",
-      "productName": "Mustard",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Mustard"
     },
     {
       "id": "55",
-      "productName": "Mayonnaise",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Mayonnaise"
     },
     {
       "id": "56",
-      "productName": "Salad dressing",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Salad dressing"
     },
     {
       "id": "57",
-      "productName": "Pasta sauce",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Pasta sauce"
     },
     {
       "id": "58",
-      "productName": "Canned tomatoes",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Canned tomatoes"
     },
     {
       "id": "59",
-      "productName": "Chicken broth",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Chicken broth"
     },
     {
       "id": "60",
-      "productName": "Vegetable oil",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Vegetable oil"
     },
     {
       "id": "61",
-      "productName": "Olive oil",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Olive oil"
     },
     {
       "id": "62",
-      "productName": "Spices",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Spices"
     },
     {
       "id": "63",
-      "productName": "Dried herbs",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Dried herbs"
     },
     {
       "id": "64",
-      "productName": "Frozen vegetables",
-      "category": "Frozen"
+      "category": "Frozen",
+      "quantity": 0,
+      "productName": "Frozen vegetables"
     },
     {
       "id": "65",
-      "productName": "Frozen fruit",
-      "category": "Frozen"
+      "category": "Frozen",
+      "quantity": 0,
+      "productName": "Frozen fruit"
     },
     {
       "id": "66",
-      "productName": "Chicken sausage",
-      "category": "Meat"
+      "category": "Meat",
+      "quantity": 0,
+      "productName": "Chicken sausage"
     },
     {
       "id": "67",
-      "productName": "Ground pork",
-      "category": "Meat"
+      "category": "Meat",
+      "quantity": 0,
+      "productName": "Ground pork"
     },
     {
       "id": "68",
-      "productName": "Tilapia",
-      "category": "Seafood"
+      "category": "Seafood",
+      "quantity": 0,
+      "productName": "Tilapia"
     },
     {
       "id": "69",
-      "productName": "Shrimp",
-      "category": "Seafood"
+      "category": "Seafood",
+      "quantity": 0,
+      "productName": "Shrimp"
     },
     {
       "id": "70",
-      "productName": "Coffee filters",
-      "category": "Beverages"
+      "category": "Beverages",
+      "quantity": 0,
+      "productName": "Coffee filters"
     },
     {
       "id": "71",
-      "productName": "Paper towels",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Paper towels"
     },
     {
       "id": "72",
-      "productName": "Toilet paper",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Toilet paper"
     },
     {
       "id": "73",
-      "productName": "Laundry detergent",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Laundry detergent"
     },
     {
       "id": "74",
-      "productName": "Dish soap",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Dish soap"
     },
     {
       "id": "75",
-      "productName": "Garbage bags",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Garbage bags"
     },
     {
       "id": "76",
-      "productName": "Aluminum foil",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Aluminum foil"
     },
     {
       "id": "77",
-      "productName": "Plastic wrap",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Plastic wrap"
     },
     {
       "id": "78",
-      "productName": "Parchment paper",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Parchment paper"
     },
     {
       "id": "79",
-      "productName": "Food storage containers",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Food storage containers"
     },
     {
       "id": "80",
-      "productName": "Trash bags",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Trash bags"
     },
     {
       "id": "81",
-      "productName": "Sponges",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Sponges"
     },
     {
       "id": "82",
-      "productName": "Dish cloths",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Dish cloths"
     },
     {
       "id": "83",
-      "productName": "All-purpose cleaner",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "All-purpose cleaner"
     },
     {
       "id": "84",
-      "productName": "Bathroom cleaner",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Bathroom cleaner"
     },
     {
       "id": "85",
-      "productName": "Glass cleaner",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Glass cleaner"
     },
     {
       "id": "86",
-      "productName": "Floor cleaner",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Floor cleaner"
     },
     {
       "id": "87",
-      "productName": "Paper plates",
-      "category": "Party Supplies"
+      "category": "Party Supplies",
+      "quantity": 0,
+      "productName": "Paper plates"
     },
     {
       "id": "88",
-      "productName": "Plastic cups",
-      "category": "Party Supplies"
+      "category": "Party Supplies",
+      "quantity": 0,
+      "productName": "Plastic cups"
     },
     {
       "id": "89",
-      "productName": "Napkins",
-      "category": "Party Supplies"
+      "category": "Party Supplies",
+      "quantity": 0,
+      "productName": "Napkins"
     },
     {
       "id": "90",
-      "productName": "fruit cocktail",
-      "category": "Canned Goods"
+      "category": "Canned Goods",
+      "quantity": 0,
+      "productName": "fruit cocktail"
     },
     {
       "id": "91",
-      "productName": "Peaches",
-      "category": "Canned Goods"
+      "category": "Canned Goods",
+      "quantity": 0,
+      "productName": "Peaches"
     },
     {
       "id": "92",
-      "productName": "Pineapple chunks",
-      "category": "Canned Goods"
+      "category": "Canned Goods",
+      "quantity": 0,
+      "productName": "Pineapple chunks"
     },
     {
       "id": "93",
-      "productName": "Corn",
-      "category": "Canned Goods"
+      "category": "Canned Goods",
+      "quantity": 0,
+      "productName": "Corn"
     },
     {
       "id": "94",
-      "productName": "Beans",
-      "category": "Canned Goods"
+      "category": "Canned Goods",
+      "quantity": 0,
+      "productName": "Beans"
     },
     {
       "id": "95",
-      "productName": "Chickpeas",
-      "category": "Canned Goods"
+      "category": "Canned Goods",
+      "quantity": 0,
+      "productName": "Chickpeas"
     },
     {
       "id": "96",
-      "productName": "Lentils",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Lentils"
     },
     {
       "id": "97",
-      "productName": "Quinoa",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Quinoa"
     },
     {
       "id": "98",
-      "productName": "Oats",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Oats"
     },
     {
       "id": "99",
-      "productName": "Granola",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Granola"
     },
     {
       "id": "100",
-      "productName": "Protein bars",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Protein bars"
     },
     {
       "id": "101",
-      "productName": "Trail mix",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Trail mix"
     },
     {
       "id": "102",
-      "productName": "Nuts",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Nuts"
     },
     {
       "id": "103",
-      "productName": "Dried fruit",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Dried fruit"
     },
     {
       "id": "104",
-      "productName": "Potato chips",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Potato chips"
     },
     {
       "id": "105",
-      "productName": "Pretzels",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Pretzels"
     },
     {
       "id": "106",
-      "productName": "Popcorn kernels",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Popcorn kernels"
     },
     {
       "id": "107",
-      "productName": "Candy",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Candy"
     },
     {
       "id": "108",
-      "productName": "Cookies",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Cookies"
     },
     {
       "id": "109",
-      "productName": "Crackers",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Crackers"
     },
     {
       "id": "110",
-      "productName": "Chips",
-      "category": "Snacks"
+      "category": "Snacks",
+      "quantity": 0,
+      "productName": "Chips"
     },
     {
       "id": "111",
-      "productName": "Salsa",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Salsa"
     },
     {
       "id": "112",
-      "productName": "Guacamole",
-      "category": "Deli"
+      "category": "Deli",
+      "quantity": 0,
+      "productName": "Guacamole"
     },
     {
       "id": "113",
-      "productName": "Hummus",
-      "category": "Deli"
+      "category": "Deli",
+      "quantity": 0,
+      "productName": "Hummus"
     },
     {
       "id": "114",
-      "productName": "Deli meat",
-      "category": "Deli"
+      "category": "Deli",
+      "quantity": 0,
+      "productName": "Deli meat"
     },
     {
       "id": "115",
-      "productName": "Sliced cheese",
-      "category": "Deli"
+      "category": "Deli",
+      "quantity": 0,
+      "productName": "Sliced cheese"
     },
     {
       "id": "116",
-      "productName": "Salad greens",
-      "category": "Produce"
+      "category": "Produce",
+      "quantity": 0,
+      "productName": "Salad greens"
     },
     {
       "id": "117",
-      "productName": "Avocado oil spray",
-      "category": "Cooking Oils"
+      "category": "Cooking Oils",
+      "quantity": 0,
+      "productName": "Avocado oil spray"
     },
     {
       "id": "118",
-      "productName": "Non-stick cooking spray",
-      "category": "Cooking Oils"
+      "category": "Cooking Oils",
+      "quantity": 0,
+      "productName": "Non-stick cooking spray"
     },
     {
       "id": "119",
-      "productName": "Bouillon cubes",
-      "category": "Pantry"
+      "category": "Pantry",
+      "quantity": 0,
+      "productName": "Bouillon cubes"
     },
     {
       "id": "120",
-      "productName": "Soy sauce",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Soy sauce"
     },
     {
       "id": "121",
-      "productName": "Sriracha",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Sriracha"
     },
     {
       "id": "122",
-      "productName": "Honey",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Honey"
     },
     {
       "id": "123",
-      "productName": "Maple syrup",
-      "category": "Condiments"
+      "category": "Condiments",
+      "quantity": 0,
+      "productName": "Maple syrup"
     },
     {
       "id": "124",
-      "productName": "Jam",
-      "category": "Breakfast"
+      "category": "Breakfast",
+      "quantity": 0,
+      "productName": "Jam"
     },
     {
       "id": "125",
-      "productName": "Jelly",
-      "category": "Breakfast"
+      "category": "Breakfast",
+      "quantity": 0,
+      "productName": "Jelly"
     },
     {
       "id": "126",
-      "productName": "Peanut butter",
-      "category": "Breakfast"
+      "category": "Breakfast",
+      "quantity": 0,
+      "productName": "Peanut butter"
     },
     {
       "id": "127",
-      "productName": "Almond butter",
-      "category": "Breakfast"
+      "category": "Breakfast",
+      "quantity": 0,
+      "productName": "Almond butter"
     },
     {
       "id": "128",
-      "productName": "Nutella",
-      "category": "Breakfast"
+      "category": "Breakfast",
+      "quantity": 0,
+      "productName": "Nutella"
     },
     {
       "id": "129",
-      "productName": "Syrup",
-      "category": "Breakfast"
+      "category": "Breakfast",
+      "quantity": 0,
+      "productName": "Syrup"
     },
     {
       "id": "130",
-      "productName": "Pancake mix",
-      "category": "Baking"
+      "category": "Baking",
+      "quantity": 0,
+      "productName": "Pancake mix"
     },
     {
       "id": "131",
-      "productName": "Waffles mix",
-      "category": "Baking"
+      "category": "Baking",
+      "quantity": 0,
+      "productName": "Waffles mix"
     },
     {
       "id": "132",
-      "productName": "Oatmeal",
-      "category": "Breakfast"
+      "category": "Breakfast",
+      "quantity": 0,
+      "productName": "Oatmeal"
     },
     {
       "id": "133",
-      "productName": "Instant oatmeal",
-      "category": "Breakfast"
+      "category": "Breakfast",
+      "quantity": 0,
+      "productName": "Instant oatmeal"
     },
     {
       "id": "134",
-      "productName": "Yogurt parfaits",
-      "category": "Breakfast"
+      "category": "Breakfast",
+      "quantity": 0,
+      "productName": "Yogurt parfaits"
     },
     {
       "id": "135",
-      "productName": "Protein powder",
-      "category": "Health & Beauty"
+      "category": "Health & Beauty",
+      "quantity": 0,
+      "productName": "Protein powder"
     },
     {
       "id": "136",
-      "productName": "Vitamins",
-      "category": "Health & Beauty"
+      "category": "Health & Beauty",
+      "quantity": 0,
+      "productName": "Vitamins"
     },
     {
       "id": "137",
-      "productName": "Multivitamins",
-      "category": "Health & Beauty"
+      "category": "Health & Beauty",
+      "quantity": 0,
+      "productName": "Multivitamins"
     },
     {
       "id": "138",
-      "productName": "Fish oil",
-      "category": "Health & Beauty"
+      "category": "Health & Beauty",
+      "quantity": 0,
+      "productName": "Fish oil"
     },
     {
       "id": "139",
-      "productName": "Probiotics",
-      "category": "Health & Beauty"
+      "category": "Health & Beauty",
+      "quantity": 0,
+      "productName": "Probiotics"
     },
     {
       "id": "140",
-      "productName": "Bandages",
-      "category": "First Aid"
+      "category": "First Aid",
+      "quantity": 0,
+      "productName": "Bandages"
     },
     {
       "id": "141",
-      "productName": "Antiseptic wipes",
-      "category": "First Aid"
+      "category": "First Aid",
+      "quantity": 0,
+      "productName": "Antiseptic wipes"
     },
     {
       "id": "142",
-      "productName": "Pain relievers",
-      "category": "Medicine"
+      "category": "Medicine",
+      "quantity": 0,
+      "productName": "Pain relievers"
     },
     {
       "id": "143",
-      "productName": "Allergy medicine",
-      "category": "Medicine"
+      "category": "Medicine",
+      "quantity": 0,
+      "productName": "Allergy medicine"
     },
     {
       "id": "144",
-      "productName": "Cold medicine",
-      "category": "Medicine"
+      "category": "Medicine",
+      "quantity": 0,
+      "productName": "Cold medicine"
     },
     {
       "id": "145",
-      "productName": "Digestive medicine",
-      "category": "Medicine"
+      "category": "Medicine",
+      "quantity": 0,
+      "productName": "Digestive medicine"
     },
     {
       "id": "146",
-      "productName": "Feminine hygiene products",
-      "category": "Personal Care"
+      "category": "Personal Care",
+      "quantity": 0,
+      "productName": "Feminine hygiene products"
     },
     {
       "id": "147",
-      "productName": "Diapers",
-      "category": "Baby"
+      "category": "Baby",
+      "quantity": 0,
+      "productName": "Diapers"
     },
     {
       "id": "148",
-      "productName": "Baby wipes",
-      "category": "Baby"
+      "category": "Baby",
+      "quantity": 0,
+      "productName": "Baby wipes"
     },
     {
       "id": "149",
-      "productName": "Baby food",
-      "category": "Baby"
+      "category": "Baby",
+      "quantity": 0,
+      "productName": "Baby food"
     },
     {
       "id": "150",
-      "productName": "Formula",
-      "category": "Baby"
+      "category": "Baby",
+      "quantity": 0,
+      "productName": "Formula"
     },
     {
       "id": "151",
-      "productName": "Pet food",
-      "category": "Pets"
+      "category": "Pets",
+      "quantity": 0,
+      "productName": "Pet food"
     },
     {
       "id": "152",
-      "productName": "pet treats",
-      "category": "Pets"
+      "category": "Pets",
+      "quantity": 0,
+      "productName": "pet treats"
     },
     {
       "id": "153",
-      "productName": "Pet waste bags",
-      "category": "Pets"
+      "category": "Pets",
+      "quantity": 0,
+      "productName": "Pet waste bags"
     },
     {
       "id": "154",
-      "productName": "Trash can liners",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Trash can liners"
     },
     {
       "id": "155",
-      "productName": "Nails",
-      "category": "Hardware"
+      "category": "Hardware",
+      "quantity": 0,
+      "productName": "Nails"
     },
     {
       "id": "156",
-      "productName": "Dishwashing gloves",
-      "category": "Household"
+      "category": "Household",
+      "quantity": 0,
+      "productName": "Dishwashing gloves"
     },
     {
       "id": "157",
-      "productName": "Oven mitts",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Oven mitts"
     },
     {
       "id": "158",
-      "productName": "Pot holders",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Pot holders"
     },
     {
       "id": "159",
-      "productName": "Dish towels",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Dish towels"
     },
     {
       "id": "160",
-      "productName": "Hammer",
-      "category": "Hardware"
+      "category": "Hardware",
+      "quantity": 0,
+      "productName": "Hammer"
     },
     {
       "id": "161",
-      "productName": "Nails",
-      "category": "Hardware"
+      "category": "Hardware",
+      "quantity": 0,
+      "productName": "Nails"
     },
     {
       "id": "162",
-      "productName": "Wax paper",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Wax paper"
     },
     {
       "id": "163",
-      "productName": "Freezer bags",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Freezer bags"
     },
     {
       "id": "164",
-      "productName": "Sandwich bags",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Sandwich bags"
     },
     {
       "id": "165",
-      "productName": "Aluminum baking pans",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Aluminum baking pans"
     },
     {
       "id": "166",
-      "productName": "Mixing bowls",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Mixing bowls"
     },
     {
       "id": "167",
-      "productName": "Measuring cups",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Measuring cups"
     },
     {
       "id": "168",
-      "productName": "Measuring spoons",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Measuring spoons"
     },
     {
       "id": "169",
-      "productName": "Whisk",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Whisk"
     },
     {
       "id": "170",
-      "productName": "Spatula",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Spatula"
     },
     {
       "id": "171",
-      "productName": "Slotted spoon",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Slotted spoon"
     },
     {
       "id": "172",
-      "productName": "Ice cream scoop",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Ice cream scoop"
     },
     {
       "id": "173",
-      "productName": "Can opener",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Can opener"
     },
     {
       "id": "174",
-      "productName": "Bottle opener",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Bottle opener"
     },
     {
       "id": "175",
-      "productName": "Garlic press",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Garlic press"
     },
     {
       "id": "176",
-      "productName": "Vegetable peeler",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Vegetable peeler"
     },
     {
       "id": "177",
-      "productName": "Cheese grater",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Cheese grater"
     },
     {
       "id": "178",
-      "productName": "Pizza cutter",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Pizza cutter"
     },
     {
       "id": "179",
-      "productName": "Rolling pin",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Rolling pin"
     },
     {
       "id": "180",
-      "productName": "Cutting board",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Cutting board"
     },
     {
       "id": "181",
-      "productName": "Kitchen knives",
-      "category": "Kitchen"
+      "category": "Kitchen",
+      "quantity": 0,
+      "productName": "Kitchen knives"
     },
     {
       "id": "182",
-      "productName": "Batteries",
-      "category": "Electronics"
+      "category": "Electronics",
+      "quantity": 0,
+      "productName": "Batteries"
     },
     {
       "id": "183",
-      "productName": "Light bulbs",
-      "category": "Hardware"
+      "category": "Hardware",
+      "quantity": 0,
+      "productName": "Light bulbs"
     },
     {
       "id": "184",
-      "productName": "Extension cord",
-      "category": "Hardware"
+      "category": "Hardware",
+      "quantity": 0,
+      "productName": "Extension cord"
     },
     {
       "id": "185",
-      "productName": "Power strip",
-      "category": "Hardware"
+      "category": "Hardware",
+      "quantity": 0,
+      "productName": "Power strip"
     },
     {
       "id": "186",
-      "productName": "Duct tape",
-      "category": "Hardware"
+      "category": "Hardware",
+      "quantity": 0,
+      "productName": "Duct tape"
     },
     {
       "id": "187",
-      "productName": "Screwdriver set",
-      "category": "Hardware"
+      "category": "Hardware",
+      "quantity": 0,
+      "productName": "Screwdriver set"
     },
     {
       "id": "188",
-      "productName": "Hammer",
-      "category": "Hardware"
+      "category": "Hardware",
+      "quantity": 0,
+      "productName": "Hammer"
     },
     {
       "id": "189",
-      "productName": "Nails",
-      "category": "Hardware"
+      "category": "Hardware",
+      "quantity": 0,
+      "productName": "Nails"
     }
   ]
 }
