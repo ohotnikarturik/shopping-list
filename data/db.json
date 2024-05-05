@@ -2,7 +2,15 @@
   "lists": [
     {
       "id": "test-1",
-      "listName": "Test-1"
+      "listName": "Test-1",
+      "products": [
+        {
+          "id": "1",
+          "category": "Dairy",
+          "quantity": 1,
+          "productName": "Milk"
+        }
+      ]
     },
     {
       "id": "test-2",
