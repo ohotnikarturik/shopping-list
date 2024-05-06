@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
+
 import { Routs } from "../routes/types"
+import Dialog from "../components/Dialog"
 
 interface List {
   id: string
@@ -10,7 +12,7 @@ interface List {
 const Lists = () => {
   const navigate = useNavigate()
   const [lists, setLists] = useState<List[]>([])
-  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isDialogOpen, setIsDialogOpen] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
   const [inputValue, setInputValue] = useState("")
 
@@ -18,7 +20,7 @@ const Lists = () => {
     setIsLoading(true)
     const response = await fetch("http://localhost:7777/lists", {
       method: "POST",
-      body: JSON.stringify({ id: name.toLowerCase(), name }),
+      body: JSON.stringify({ id: name.toLowerCase(), listName: name }),
       headers: {
         "Content-Type": "application/json",
       },
@@ -27,7 +29,7 @@ const Lists = () => {
     navigate(`${Routs.LISTS}/${list.id}`)
     setLists([...lists, list])
     setIsLoading(false)
-    setIsModalOpen(false)
+    setIsDialogOpen(false)
     setInputValue("")
   }
 
@@ -44,55 +46,66 @@ const Lists = () => {
   const renderLists = () => {
     if (isLoading) return <div>Loading...</div>
     if (lists.length === 0) return <div>Let's plan your shopping!</div>
-    return lists.map((list) => (
-      <Link key={list.id} to={`/lists/${list.id}`}>
-        {list.listName}
-      </Link>
-    ))
+    return (
+      <ul>
+        {lists.map((list) => (
+          <li key={list.id}>
+            <Link to={`/lists/${list.id}`}>{list.listName}</Link>
+          </li>
+        ))}
+      </ul>
+    )
   }
 
-  const renderModal = () => {
+  const renderDialogContent = () => {
     return (
-      <div className=" border">
-        <div>
-          <h4>Create a new list</h4>
-          <button
-            className="bg-slate-400"
-            onClick={() => setIsModalOpen(false)}
-          >
-            x
-          </button>
-        </div>
+      <div>
+        <label
+          htmlFor="listName"
+          className="block text-sm font-medium leading-6 text-gray-900"
+        >
+          List Name
+        </label>
         <input
           type="text"
-          name="newList"
-          id="newList"
-          placeholder="New List"
+          name="listName"
+          placeholder="List name..."
+          id="listName"
           value={inputValue}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
             setInputValue(e.target.value)
           }}
+          className="w-full rounded-md border-0 py-1.5 px-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-500 outline-none"
         />
-        <button className="bg-slate-400" onClick={() => createList(inputValue)}>
-          Save
-        </button>
       </div>
     )
   }
 
   return (
     <div>
-      <h2>My Lists</h2>
+      <div className="flex justify-between">
+        <h2 className="text-lg font-semibold text-gray-900">
+          Your shopping lists
+        </h2>
+        <button className="bg-slate-400" onClick={() => setIsDialogOpen(true)}>
+          + Add new list
+        </button>
+      </div>
 
       {renderLists()}
 
-      {!isModalOpen && (
-        <button className="bg-slate-400" onClick={() => setIsModalOpen(true)}>
-          + Add new list
-        </button>
+      {isDialogOpen && (
+        <Dialog
+          open={isDialogOpen}
+          onClose={() => setIsDialogOpen(false)}
+          onConfirm={() => createList(inputValue)}
+          title="Create a new list"
+          confirmBtnName="Create"
+          loading={isLoading}
+        >
+          {renderDialogContent()}
+        </Dialog>
       )}
-
-      {isModalOpen && renderModal()}
     </div>
   )
 }
