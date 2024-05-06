@@ -1,4 +1,4 @@
-import { Home, List, Lists, Profile } from "./lazyPages"
+import { Home, List, Lists, Profile, About } from "./lazyPages"
 import { Routs } from "./types"
 
 const routes = [
@@ -15,7 +15,7 @@ const routes = [
     path: Routs.PROFILE,
     element: <Profile />,
   },
-  // { path: Routs.ABOUT, element: <About /> },
+  { path: Routs.ABOUT, element: <About /> },
 ]
 
 export default routes
